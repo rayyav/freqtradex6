@@ -4,7 +4,7 @@
     "fiat_display_currency": "USD",
     "cancel_open_orders_on_exit": false,
     "exchange": {
-        "name": "mexc",
+        "name": "bybit",
         "key": "",
         "secret": "",
         "ccxt_config": {},
