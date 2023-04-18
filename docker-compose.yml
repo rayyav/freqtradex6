@@ -1,7 +1,7 @@
 ---
 version: '3'
 services:
-  freqtradex3:
+  freqtradex4:
     image: freqtradeorg/freqtrade:stable
     # image: freqtradeorg/freqtrade:develop
     # Use plotting image
@@ -11,7 +11,7 @@ services:
     #   context: .
     #   dockerfile: "./docker/Dockerfile.custom"
     restart: unless-stopped
-    container_name: freqtradex3
+    container_name: freqtradex4
     volumes:
       - "./user_data:/freqtrade/user_data"
     # Expose api on port 8080 (localhost only)
@@ -36,4 +36,4 @@ services:
       --config /freqtrade/user_data/config.private.json
       --config /freqtrade/user_data/strategies/NostalgiaForInfinityX/pairlist-volume-binance-usdt.json
       --config /freqtrade/user_data/strategies/NostalgiaForInfinityX/blacklist-binance.json
-      --strategy NostalgiaForInfinityX2
+      --strategy NostalgiaForInfinityX
