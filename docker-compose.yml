@@ -36,4 +36,4 @@ services:
       --config /freqtrade/user_data/config.private.json
       --config /freqtrade/user_data/strategies/NostalgiaForInfinityX/pairlist-volume-binance-usdt.json
       --config /freqtrade/user_data/strategies/NostalgiaForInfinityX/blacklist-binance.json
-      --strategy NostalgiaForInfinityX
+      --strategy NostalgiaForInfinityX2
