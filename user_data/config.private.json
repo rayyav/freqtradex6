@@ -4,7 +4,7 @@
     "fiat_display_currency": "USD",
     "cancel_open_orders_on_exit": false,
     "exchange": {
-        "name": "gate",
+        "name": "huobi",
         "key": "",
         "secret": "",
         "ccxt_config": {},
@@ -17,7 +17,7 @@
     },
     "telegram": {
         "enabled": true,
-        "token": "6222086904:AAGbMLJXWpYGzd7de9zITsz7r0UA4BuYZK4",
+        "token": "5431658572:AAHJseIiE0Acb583yFDOktFXzwVbOkaKduE",
         "chat_id": "-1001809436147"
     },
     "api_server": {
