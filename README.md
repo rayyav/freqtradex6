@@ -9,7 +9,7 @@ If not already done, install [Docker](https://docs.docker.com/engine/install/) a
 
 **Clone repository**
 ```bash
-git clone https://github.com/rayyav/nfix5.git && cd crypto-bot
+git clone https://github.com/rayyav/freqtradex6.git && cd crypto-bot
 ```
 **Generate the private configuration file**
 ```bash
@@ -18,6 +18,9 @@ cp templates/config.private.json.template user_data/config.private.json
 **Start Crypto Bot.** *(By default the mode is enabled **Dry-Run**)*
 ```bash
 docker-compose up -d
+docker-compose up -d
+docker compose logs -f.
+chown -R 1000:1000 user_data
 ```
 To access FreqUI go to `http://localhost:8080/` and register a new bot with the username and password that indicates the `config.private.json` ***(You can change it at any time)***. In the same file you can activate telegram notifications, configure the exchange credentials and disable dry-run mode.
 
